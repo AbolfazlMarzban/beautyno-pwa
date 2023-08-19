@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
     <div className="w-full h-full flex justify-initail items-center border border-r-1 border-r-gray-300 pr-10 fixed">
       <ul>
         <li className=" flex my-16">
+        <Link to="/" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -20,6 +22,7 @@ function Navbar(props) {
             />
           </svg>
           Home
+          </Link>
         </li>
         <li className=" flex my-16">
           <svg
@@ -38,7 +41,8 @@ function Navbar(props) {
           </svg>
           Explore
         </li>
-        <li className=" flex my-16">
+        <li className="  my-16">
+          <Link to="/Cart" className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -54,6 +58,7 @@ function Navbar(props) {
             />
           </svg>
           Cart
+          </Link>
         </li>
         <li className=" flex my-16">
           <svg

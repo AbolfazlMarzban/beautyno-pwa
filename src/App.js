@@ -1,21 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import HomeServices from './components/home/HomeServices';
+import { Routes, Route } from "react-router-dom"
+import Cart from './components/Cart/cart';
+import HomePage from './components/home/homePage';
 
 function App() {
   return (
     <div className="App h-screen">
-        <div className='flex flex-row h-full'>
-        <div className='basis-5/6'>
-          <HomeServices /> 
-          </div>
-          <div className='basis-1/6'>
-            <Navbar />
-          </div>
-   
-        </div>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path="/Cart" element={ <Cart/> } />
+      </Routes>
     </div>
   );
 }

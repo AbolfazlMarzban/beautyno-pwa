@@ -5,7 +5,7 @@ import ServiceGallery from "./serviceGallery";
 
 export default function ServiceBox({}){
     return (
-        <div className="border border-1 rounded-xl p-6">
+        <div className="border border-1 rounded-xl p-6 mt-4">
         <div className="flex items-center">
           <div className="basis-1/8">
             <div

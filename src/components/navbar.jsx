@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(props) {
   return (
-    <div className="w-full h-full flex justify-initail items-center border border-r-1 border-r-gray-300 pr-10">
+    <div className="w-full h-full flex justify-initail items-center border border-r-1 border-r-gray-300 pr-10 fixed">
       <ul>
         <li className=" flex my-16">
           <svg

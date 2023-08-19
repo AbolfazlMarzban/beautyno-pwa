@@ -81,6 +81,8 @@ function Navbar(props) {
 
         </li>
         <li className=" flex my-16">
+          <Link  to="/Profile" className="flex">
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -96,6 +98,8 @@ function Navbar(props) {
             />
           </svg>
           Profile
+          </Link>
+
         </li>
       </ul>
     </div>

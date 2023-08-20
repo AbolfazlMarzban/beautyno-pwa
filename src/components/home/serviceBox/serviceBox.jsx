@@ -2,11 +2,13 @@ import profile from "../../../assets/images/background.png";
 import React from "react";
 import ServiceItems from "./serviceItems";
 import ServiceGallery from "./serviceGallery";
+import { Link } from "react-router-dom";
 
 export default function ServiceBox({}){
     return (
         <div className="border border-1 rounded-xl p-6 mt-4">
         <div className="flex items-center">
+          <Link to="/user" className="flex items-center">
           <div className="basis-1/8">
             <div
               className="w-24 h-24 rounded-full bg-cover bg-center"
@@ -64,6 +66,8 @@ export default function ServiceBox({}){
               </svg>
             </div>
           </div>
+          </Link>
+       
         </div>
             <ServiceItems />
             <ServiceItems />

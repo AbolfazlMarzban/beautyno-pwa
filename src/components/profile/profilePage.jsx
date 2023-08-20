@@ -14,10 +14,13 @@ export default function ProfilePage({}){
             سفارشات(برای مشتری)
           </button>
           </Link>
-       
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
-            خدمات(برای سرویس دهنده)
-          </button>
+          
+          <Link to="/profile/services" className="w-full">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
+                خدمات(برای سرویس دهنده)
+              </button>
+          </Link>
+ 
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
             پشتیبانی
           </button>

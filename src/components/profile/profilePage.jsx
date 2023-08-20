@@ -21,9 +21,12 @@ export default function ProfilePage({}){
               </button>
           </Link>
  
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
+          <Link to="/profile/support" className="w-full">
+          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
             پشتیبانی
           </button>
+          </Link>
+
           <button className="bg-red-600 hover:bg-red-300 text-white font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
             خروج
           </button>

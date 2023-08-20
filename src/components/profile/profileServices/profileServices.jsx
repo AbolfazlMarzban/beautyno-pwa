@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar'
+import PServiceItems from './pServiceItems'
 
 export default function ProfileServices() {
   return (
@@ -9,7 +10,7 @@ export default function ProfileServices() {
         <div>
         <h2 className="text-xl font-bold">خدمات شما</h2>
         </div>
-        {/* <CartItems/> */}
+        <PServiceItems />
      </div>   
       <div className='basis-1/6'>
         <Navbar />

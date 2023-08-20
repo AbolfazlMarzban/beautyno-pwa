@@ -8,6 +8,7 @@ import FavouritesPage from './components/favourites/favouritesPage';
 import ProfilePage from './components/profile/profilePage';
 import ProfileOrders from './components/profile/profileOrders/profileOrders';
 import ProfileServices from './components/profile/profileServices/profileServices';
+import ProfileSupport from './components/profile/profileSupport/profileSupport';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Profile' element={<ProfilePage />} />
         <Route path='/Profile/orders' element={<ProfileOrders />} />
         <Route path='/Profile/services' element={<ProfileServices />} />
+        <Route path='/profile/support' element={<ProfileSupport />} />
       </Routes>
     </div>
   );

@@ -1,10 +1,12 @@
 import React from "react";
 import profile from "../../assets/images/background.png";
+import { Link } from "react-router-dom";
 
 export default function ListGalleryItem() {
   return (
     <div className="flex flex-col w-2/3 p-14">
-      <div className="flex items-center ">
+        <Link to="/user">
+        <div className="flex items-center ">
         <div className="basis-1/8">
           <div
             className="w-24 h-24 rounded-full bg-cover bg-center"
@@ -63,6 +65,8 @@ export default function ListGalleryItem() {
           </div>
         </div>
       </div>
+        </Link>
+    
       <div className="my-4 flex justify-center border border-1 rounded-xl">
         <img
           class="h-auto max-w-full rounded-lg"

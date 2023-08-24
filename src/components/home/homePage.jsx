@@ -1,4 +1,4 @@
-import HomeServices from "./homeServices"
+import HomeServices from "./HomeServices"
 import Navbar from "../Navbar"
 
 export default function HomePage({}){

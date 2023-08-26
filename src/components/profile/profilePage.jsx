@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 export default function ProfilePage({}){
     return(
-        <div className='flex flex-row h-full'>
-        <div className='basis-5/6 flex justify-center items-center'>
+        <div className='flex flex-col h-full justify-center'>
+        <div className='w-full flex justify-center items-center'>
             <div className="w-1/2 flex flex-col">
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
             تکمیل پروفایل
@@ -32,7 +32,7 @@ export default function ProfilePage({}){
           </button>
             </div>
           </div>
-          <div className='basis-1/6'>
+          <div className="w-full">
             <Navbar />
           </div>
         </div>

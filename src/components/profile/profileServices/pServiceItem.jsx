@@ -5,7 +5,7 @@ export default function PServiceItem() {
     <div className="w-full border border-1 rounded-xl p-2 px-6 my-4">
     <ul className="flex items-center justify-between ">
         <li>
-            <span className="text-lg">کوتاهی مو</span>
+            <span className="text-md">کوتاهی مو</span>
         </li>
         <li className='flex items-center'>
                                 <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">فعال</span>
@@ -17,10 +17,10 @@ export default function PServiceItem() {
 
         </li>
         <li>
-            <span className="text-lg">شنبه الی چهارشنبه</span>
+            <span className="text-md">شنبه الی چهارشنبه</span>
         </li>
         <li>
-            <span className="text-lg">از ساعت 6 الی 8</span>
+            <span className="text-md">16:00-18:00</span>
         </li>
         
     </ul>

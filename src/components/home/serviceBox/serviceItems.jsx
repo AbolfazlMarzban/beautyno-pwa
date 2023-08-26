@@ -4,7 +4,7 @@ import React from "react";
 export default function ServiceItems({}){
     return(
         <div className="mt-4">
-        {/* <ul className="flex gap-x-4 items-center font-bold border border-1 py-1 px-4 justify-between rounded-xl">
+        <ul className="flex gap-x-4 items-center font-bold border border-1 py-1 px-4 justify-between rounded-xl">
           <li>رنگ مو</li>
           <li>شنبه تا چهارشنبه</li>
           <li>از ساعت 9 الی 12</li>
@@ -27,7 +27,7 @@ export default function ServiceItems({}){
               </svg>
             </button>
           </li>
-        </ul> */}
+        </ul>
       </div>
     )
 }

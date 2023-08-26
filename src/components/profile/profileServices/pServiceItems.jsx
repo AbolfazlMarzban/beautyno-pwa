@@ -3,7 +3,7 @@ import PServiceItem from './pServiceItem'
 
 export default function PServiceItems() {
   return (
-    <div className="w-full px-8 mt-4">
+    <div className="w-full px-2 mt-4">
         <PServiceItem />
         <PServiceItem />
         <PServiceItem />

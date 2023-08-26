@@ -3,7 +3,7 @@ import ServiceBox from "./serviceBox/serviceBox";
 
 export default function HomeServices({}) {
   return (
-    <div className="w-full h-full py-4">
+    <div className="w-full h-full pb-16">
         <ServiceBox />
         <ServiceBox />
         <ServiceBox />

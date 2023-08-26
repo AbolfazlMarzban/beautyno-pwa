@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from "react-router-dom"
 import Cart from './components/Cart/cart';
@@ -11,6 +10,7 @@ import ProfileServices from './components/profile/profileServices/profileService
 import ProfileSupport from './components/profile/profileSupport/profileSupport';
 import UserPage from './components/user/userPage';
 import UserListGallery from './components/user/userListGallery';
+import 'animate.css';
 
 function App() {
   return (

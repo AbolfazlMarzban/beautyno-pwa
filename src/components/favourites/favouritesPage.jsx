@@ -3,15 +3,15 @@ import FavItems from "./favItems"
 
 export default function FavouritesPage({}){
     return(
-        <div className='flex flex-row h-full'>
+        <div className='flex flex-col h-full justify-center'>
      
-        <div className='basis-5/6 flex flex-col items-center justify-center'>
+        <div className='flex flex-col items-center justify-center'>
             <div>
             <h2 className="text-xl font-bold">مورد علاقه ها</h2>
             </div>
             <FavItems />
          </div>   
-          <div className='basis-1/6'>
+         <div className="w-full">
             <Navbar />
           </div>
         </div>

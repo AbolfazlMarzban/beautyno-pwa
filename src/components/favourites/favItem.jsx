@@ -2,7 +2,7 @@ import profile from "../../assets/images/background.png";
 
 export default function FavItem({}) {
   return (
-    <div className="w-full border border-1 rounded-xl p-2 px-6 my-4">
+    <div className="w-full border border-1 rounded-xl p-2 px-2 my-4">
       <ul className="flex items-center justify-between ">
         <li>
           <div
@@ -33,7 +33,7 @@ export default function FavItem({}) {
           </button>
         </li>
         <li>
-        <div class="flex items-center space-x-1 mt-4">
+        <div class="flex items-center space-x-1">
               <svg
                 class="w-4 h-4 text-yellow-300"
                 aria-hidden="true"

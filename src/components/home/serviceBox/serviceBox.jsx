@@ -8,19 +8,19 @@ import { useState } from "react";
 export default function ServiceBox({}){
   const [showModal, setShowModal] = useState(false)
     return (
-        <div className="border border-1 rounded-xl p-6 mt-4">
+        <div className="border border-1 rounded-xl p-2 pb-16 mt-2">
         <div className="flex items-center">
           <Link to="/user" className="flex items-center">
           <div className="basis-1/8">
             <div
-              className="w-24 h-24 rounded-full bg-cover bg-center"
+              className="w-16 h-16 rounded-full bg-cover bg-center"
               style={{ backgroundImage: `url(${profile})` }}
             ></div>
           </div>
-          <div className="basis-7/8 pr-12">
-            <span className="text-xl font-bold">نام آرایشگاه</span>
+          <div className="basis-7/8 pr-4">
+            <span className="text-md font-bold">نام آرایشگاه</span>
 
-            <div class="flex items-center space-x-1 mt-4">
+            <div class="flex items-center space-x-1 mt-2">
               <svg
                 class="w-4 h-4 text-yellow-300"
                 aria-hidden="true"

@@ -1,13 +1,13 @@
-import HomeServices from "./HomeServices"
+import HomeServices from "./homeServices"
 import Navbar from "../Navbar"
 
 export default function HomePage({}){
     return(
-        <div className='flex flex-row h-full'>
-        <div className='basis-5/6'>
+        <div className='flex flex-col h-full'>
+        <div className="w-full">
           <HomeServices /> 
           </div>
-          <div className='basis-1/6'>
+          <div className="w-full">
             <Navbar />
           </div>
         </div>

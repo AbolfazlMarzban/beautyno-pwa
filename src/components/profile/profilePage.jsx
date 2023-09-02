@@ -1,4 +1,4 @@
-import Navbar from "../Navbar"
+import Navbar from "../navbar"
 import { Link } from "react-router-dom"
 
 export default function ProfilePage({}){
@@ -11,13 +11,18 @@ export default function ProfilePage({}){
           </button>
           <Link to="/profile/orders" className="w-full">
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
-            سفارشات(برای مشتری)
+            سفارشات
           </button>
           </Link>
           
           <Link to="/profile/services" className="w-full">
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
                 خدمات(برای سرویس دهنده)
+              </button>
+          </Link>
+          <Link to="/Favourites" className="flex">
+          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
+                مورد علاقه ها
               </button>
           </Link>
  

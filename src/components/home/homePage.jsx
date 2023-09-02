@@ -1,6 +1,5 @@
-import HomeServices from "./homeServices"
-import Navbar from "../Navbar"
-
+import Navbar from "../navbar"
+import HomeServices from './homeServices'
 export default function HomePage({}){
     return(
         <div className='flex flex-col h-full'>

@@ -4,7 +4,7 @@ import ServiceItems from "../home/serviceBox/serviceItems";
 
 export default function UserHead() {
   return (
-    <div className="p-6">
+    <div className="p-2">
             <div className="flex items-center ">
       <div className="basis-1/8">
         <div

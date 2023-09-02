@@ -5,14 +5,14 @@ import UserGallery from './userGallery'
 
 export default function UserPage() {
   return (
-    <div className='flex flex-row h-full'>
+    <div className='flex flex-col h-full'>
      
-    <div className='basis-5/6 flex flex-col'>
+    <div className='w-full flex flex-col'>
         <UserHead />
         <hr></hr>
         <UserGallery />
      </div>   
-      <div className='basis-1/6'>
+      <div className='w-full'>
         <Navbar />
       </div>
     </div>

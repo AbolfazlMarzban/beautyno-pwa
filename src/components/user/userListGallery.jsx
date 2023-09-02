@@ -5,8 +5,8 @@ import ListGalleryItem from './listGalleryItem'
 
 export default function UserListGallery() {
   return (
-    <div className='flex flex-row h-full'>
-    <div className='basis-5/6 flex flex-col items-center'>
+    <div className='flex flex-col h-full'>
+    <div className='w-full flex flex-col items-center'>
         <ListGalleryItem />
         <ListGalleryItem />
         <ListGalleryItem />
@@ -14,7 +14,7 @@ export default function UserListGallery() {
         <ListGalleryItem />
 
      </div>   
-      <div className='basis-1/6'>
+      <div className='w-full'>
         <Navbar />
       </div>
     </div>

@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 export default function ListGalleryItem() {
   return (
-    <div className="flex flex-col w-2/3 p-14">
+    <div className="flex flex-col w-full xl:w-1/3 lg:w-1/3 p-4">
         <Link to="/user">
         <div className="flex items-center ">
         <div className="basis-1/8">
           <div
-            className="w-24 h-24 rounded-full bg-cover bg-center"
+            className="w-16 h-16 rounded-full bg-cover bg-center"
             style={{ backgroundImage: `url(${profile})` }}
           ></div>
         </div>
-        <div className="basis-7/8 pr-12">
-          <span className="text-xl font-bold">نام آرایشگاه</span>
+        <div className="basis-7/8 pr-4">
+          <span className="text-lg font-bold">نام آرایشگاه</span>
 
           <div class="flex items-center space-x-1 mt-4">
             <svg
@@ -67,7 +67,7 @@ export default function ListGalleryItem() {
       </div>
         </Link>
     
-      <div className="my-4 flex justify-center border border-1 rounded-xl">
+      <div className="my-4 flex flex-col justify-center border border-1 rounded-xl">
         <img
           class="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"

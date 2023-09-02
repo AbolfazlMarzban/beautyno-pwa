@@ -24,6 +24,7 @@ export default function ProfileOrders({}){
 
             </div>
             <POrderItems />
+          
          </div>   
          <div className="w-full">
             <Navbar />

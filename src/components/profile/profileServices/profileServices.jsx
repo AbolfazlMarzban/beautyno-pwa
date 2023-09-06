@@ -73,7 +73,6 @@ export default function ProfileServices() {
                               <option value="DE">چهار شنبه</option>
                               <option value="DE">پنج شنبه </option>
                               <option value="DE">جمعه</option>
-
                             </select>
                           </div>
                           <div className="basis-1/2">
@@ -102,13 +101,18 @@ export default function ProfileServices() {
                         </label>
                         <div className="flex gap-2">
                           <div className="basis-1/2">
-                              <label htmlFor="" className="text-sm"> از ساعت</label>
-                              {/* <input type="time" name="time"/> */}
-                              <input type="time" id="time-input" name="time" step="3600" min="00:00" max="23:59" pattern="[0-2][0-9]:[0-5][0-9]"></input>
+                            <label htmlFor="" className="text-sm">
+                              {" "}
+                              از ساعت
+                            </label>
+                            <input type="time" name="time" />
                           </div>
                           <div className="basis-1/2">
-                          <label htmlFor="" className="text-sm"> تا ساعت</label>
-                          
+                            <label htmlFor="" className="text-sm">
+                              {" "}
+                              تا ساعت
+                            </label>
+                            <input type="time" name="time" />
                           </div>
                         </div>
                       </div>

@@ -18,7 +18,7 @@ export default function CartItem({}){
                     <span className="text-md">روز دوشنبه 1402/5/27</span>
                 </li>
                 <li>
-                    <span className="text-md">از ساعت 6 الی 8</span>
+                    <span className="text-md">18:00-16:00</span>
                 </li>
                 
             </ul>

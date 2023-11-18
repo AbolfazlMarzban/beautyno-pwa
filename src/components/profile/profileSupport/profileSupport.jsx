@@ -5,10 +5,10 @@ import { useState } from "react";
 export default function ProfileSupport({}) {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="flex flex-col h-full justify-center">
-      <div className="w-full flex flex-col items-center justify-center">
+    <div className="flex flex-col h-full items-center justify-center">
+      <div className="w-full flex flex-col items-center justify-center max-w-3xl">
         <div>
-          <h2 className="text-xl font-bold">پشتیبانی</h2>
+          <h2 className="text-xl font-bold">Support</h2>
         </div>
         <SupportTickets />
         <button
@@ -16,7 +16,7 @@ export default function ProfileSupport({}) {
           type="button"
           onClick={() => setShowModal(true)}
         >
-          تیکت جدید
+          Add Ticket
         </button>
         {showModal ? (
           <>
@@ -26,7 +26,7 @@ export default function ProfileSupport({}) {
                 <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none h-full">
                   {/*header*/}
                   <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                    <h3 className="text-2xl font-semibold">تیکت جدید</h3>
+                    <h3 className="text-2xl font-semibold">New Ticket</h3>
                     <button
                       className="p-1 border-0 text-red-600 text-xl font-semibold outline-none focus:outline-none"
                       onClick={() => setShowModal(false)}
@@ -41,13 +41,13 @@ export default function ProfileSupport({}) {
                           for="name"
                           className="block mb-2 text-sm font-medium text-start text-gray-900 dark:text-white"
                         >
-                          موضوع تیکت
+                          Ticket Subject
                         </label>
                         <input
                           type="text"
                           id="name"
                           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          placeholder="موضوع تیکت را وارد کنید"
+                          placeholder="Insert your ticket's subject"
                           required
                         />
                       </div>
@@ -56,7 +56,7 @@ export default function ProfileSupport({}) {
                           className="block my-2 text-sm font-medium text-start text-gray-900 dark:text-white"
                           for="subject"
                         >
-                          تیکت خود را شرح دهید
+                          explain your issue here
                         </label>
                         <textarea
                           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -72,7 +72,7 @@ export default function ProfileSupport({}) {
                       type="button"
                       onClick={() => setShowModal(false)}
                     >
-                      ارسال تیکت
+                      Send Ticket
                     </button>
                   </div>
                     </form>

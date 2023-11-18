@@ -3,13 +3,13 @@ export default function SupportTicket({}){
         <div className="w-full border border-1 rounded-xl p-2 px-2 my-4">
             <ul className="flex items-center justify-between ">
             <li>
-            <span className="text-lg">عدم پاسخگویی مشتری</span>
+            <span className="text-lg">Ticket's Subject</span>
         </li>
         <li className='flex items-center'>
-            <span>1402/5/29</span>
+            <span>Ticket's Date</span>
         </li>
         <li>
-            <span className="text-lg">منتظر پاسخ</span>
+            <span className="text-lg">Ticket's Status</span>
         </li>
             </ul>
         </div>

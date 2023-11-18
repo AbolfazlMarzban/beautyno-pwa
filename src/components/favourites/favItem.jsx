@@ -11,11 +11,11 @@ export default function FavItem({}) {
           ></div>
         </li>
         <li>
-          <span className="text-lg">اسم آرایشگر</span>
+          <span className="text-lg">UserName</span>
         </li>
         <li>
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded-xl shadow flex gap-x-2">
-            لیست خدمات
+            Service List
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

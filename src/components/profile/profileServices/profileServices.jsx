@@ -5,10 +5,10 @@ import PServiceItems from "./pServiceItems";
 export default function ProfileServices() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="flex flex-col h-full justify-center">
-      <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col h-full justify-center items-center">
+      <div className="flex flex-col items-center justify-center w-full max-w-3xl">
         <div>
-          <h2 className="text-xl font-bold">خدمات شما</h2>
+          <h2 className="text-xl font-bold">Your Services</h2>
         </div>
         <PServiceItems />
         <button
@@ -16,7 +16,7 @@ export default function ProfileServices() {
           type="button"
           onClick={() => setShowModal(true)}
         >
-          افزودن خدمت
+          Add Service
         </button>
         {showModal ? (
           <>

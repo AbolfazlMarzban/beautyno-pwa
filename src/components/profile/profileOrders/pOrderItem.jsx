@@ -10,16 +10,16 @@ export default function POrderItem() {
             </div>
         </li>
         <li>
-            <span className="text-md">اسم آرایشگر</span>
+            <span className="text-md">UserName</span>
         </li>
         <li>
-            <span className="text-md">کوتاهی مو</span>
+            <span className="text-md">ServiceName</span>
         </li>
         <li>
-            <span className="text-md">دوشنبه 1402/5/27</span>
+            <span className="text-md">Service Date</span>
         </li>
         <li>
-            <span className="text-md">18:00 - 20:00</span>
+            <span className="text-md">Service Time</span>
         </li>
     </ul>
 </div>  

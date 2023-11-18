@@ -17,7 +17,7 @@ export default function ServiceBox({}) {
               style={{ backgroundImage: `url(${profile})` }}
             ></div>
           </div>
-          <div className="basis-7/8 pr-4">
+          <div className="basis-7/8 pr-4 flex flex-col items-start ml-2">
             <span className="text-md font-bold">UserName</span>
 
             <div class="flex items-center space-x-1 mt-2">

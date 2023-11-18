@@ -5,9 +5,9 @@ import UserGallery from './userGallery'
 
 export default function UserPage() {
   return (
-    <div className='flex flex-col h-full'>
+    <div className='flex flex-col items-center h-full'>
      
-    <div className='w-full flex flex-col'>
+    <div className='w-full max-w-3xl flex flex-col'>
         <UserHead />
         <hr></hr>
         <UserGallery />

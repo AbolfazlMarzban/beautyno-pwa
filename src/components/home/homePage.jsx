@@ -7,7 +7,7 @@ export default function HomePage({}){
           <HomeServices /> 
           </div>
           <div className="w-full">
-            <Navbar />
+            <Navbar />  
           </div>
         </div>
     )

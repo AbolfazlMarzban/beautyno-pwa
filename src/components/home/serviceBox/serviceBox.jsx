@@ -18,7 +18,7 @@ export default function ServiceBox({}) {
             ></div>
           </div>
           <div className="basis-7/8 pr-4">
-            <span className="text-md font-bold">نام آرایشگاه</span>
+            <span className="text-md font-bold">UserName</span>
 
             <div class="flex items-center space-x-1 mt-2">
               <svg
@@ -76,7 +76,7 @@ export default function ServiceBox({}) {
         type="button"
         onClick={() => setShowModal(true)}
       >
-        خدمات
+        Services
       </button>
       {showModal ? (
         <>

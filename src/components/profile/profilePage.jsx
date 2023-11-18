@@ -7,33 +7,33 @@ export default function ProfilePage({}){
         <div className='w-full flex justify-center items-center'>
             <div className="w-1/2 flex flex-col">
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
-            تکمیل پروفایل
+            Profile Info
           </button>
           <Link to="/profile/orders" className="w-full">
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
-            سفارشات
+            Orders
           </button>
           </Link>
           
           <Link to="/profile/services" className="w-full">
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
-                خدمات(برای سرویس دهنده)
+                Your Services
               </button>
           </Link>
           <Link to="/Favourites" className="flex">
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
-                مورد علاقه ها
+                Your Favourites
               </button>
           </Link>
  
           <Link to="/profile/support" className="w-full">
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
-            پشتیبانی
+            Support
           </button>
           </Link>
 
           <button className="bg-red-600 hover:bg-red-300 text-white font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2">
-            خروج
+            Sign out
           </button>
             </div>
           </div>

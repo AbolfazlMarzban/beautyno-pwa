@@ -86,13 +86,13 @@ export default function ServiceBox({}) {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none h-full">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
+                  <h3 className="text-2xl font-semibold">Service List</h3>
                   <button
                     className="p-1 border-0 text-red-600 text-xl font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
                   >
                     X
                   </button>
-                  <h3 className="text-2xl font-semibold">Service List</h3>
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto w-full">

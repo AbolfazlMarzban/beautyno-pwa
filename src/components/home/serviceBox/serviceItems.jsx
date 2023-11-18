@@ -4,6 +4,9 @@ export default function ServiceItems({}) {
   return (
     <div className="mt-4">
       <ul className="flex gap-x-4 items-center font-bold border border-1 py-1 px-4 justify-between rounded-xl">
+        <li>Service Name</li>
+        <li>Service Time</li>
+        <li>Service Days</li>
         <li>
           <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded-xl shadow flex gap-x-2">
             <svg
@@ -23,9 +26,6 @@ export default function ServiceItems({}) {
             Fast Order
           </button>
         </li>
-        <li>Service Days</li>
-        <li>Service Time</li>
-        <li>Service Name</li>
       </ul>
     </div>
   );

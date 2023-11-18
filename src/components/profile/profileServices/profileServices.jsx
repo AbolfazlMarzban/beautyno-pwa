@@ -26,7 +26,7 @@ export default function ProfileServices() {
                 <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none h-full">
                   {/*header*/}
                   <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                    <h3 className="text-2xl font-semibold">لیست خدمات</h3>
+                    <h3 className="text-2xl font-semibold">New Service</h3>
                     <button
                       className="p-1 border-0 text-red-600 text-xl font-semibold outline-none focus:outline-none"
                       onClick={() => setShowModal(false)}
@@ -42,13 +42,13 @@ export default function ProfileServices() {
                           for="name"
                           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                         >
-                          نام خدمت
+                          Service Name
                         </label>
                         <input
                           type="text"
                           id="name"
                           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          placeholder="نام خدمت خود را وارد کنید..."
+                          placeholder="Insert your service name here..."
                           required
                         />
                       </div>
@@ -57,7 +57,7 @@ export default function ProfileServices() {
                           for="password"
                           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                         >
-                          رزوهای ارائه خدمت
+                          Service Days
                         </label>
                         <div className="flex gap-2">
                           <div className="basis-1/2">
@@ -65,14 +65,14 @@ export default function ProfileServices() {
                               id="weekDays"
                               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             >
-                              <option selected>از روز</option>
-                              <option value="US">شنبه</option>
-                              <option value="CA">یکشنبه</option>
-                              <option value="FR">دوشنبه</option>
-                              <option value="DE">سه شنبه</option>
-                              <option value="DE">چهار شنبه</option>
-                              <option value="DE">پنج شنبه </option>
-                              <option value="DE">جمعه</option>
+                              <option selected>From</option>
+                              <option value="US">Saturday</option>
+                              <option value="CA">Sunday</option>
+                              <option value="FR">Monday</option>
+                              <option value="DE">Tuesday</option>
+                              <option value="DE">Wendsday</option>
+                              <option value="DE">Thursday</option>
+                              <option value="DE">Friday</option>
                             </select>
                           </div>
                           <div className="basis-1/2">
@@ -80,14 +80,14 @@ export default function ProfileServices() {
                               id="weekDays"
                               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             >
-                              <option selected>تا روز</option>
-                              <option value="US">شنبه</option>
-                              <option value="CA">یکشنبه</option>
-                              <option value="FR">دوشنبه</option>
-                              <option value="DE">سه شنبه</option>
-                              <option value="DE">چهار شنبه</option>
-                              <option value="DE">پنج شنبه </option>
-                              <option value="DE">جمعه</option>
+                              <option selected>To</option>
+                              <option value="US">Saturday</option>
+                              <option value="CA">Sunday</option>
+                              <option value="FR">Monday</option>
+                              <option value="DE">Tuesday</option>
+                              <option value="DE">Wendsday</option>
+                              <option value="DE">Thursday</option>
+                              <option value="DE">Friday</option>
                             </select>
                           </div>
                         </div>
@@ -97,20 +97,20 @@ export default function ProfileServices() {
                           for="password"
                           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                         >
-                          ساعات ارائه خدمت
+                          Service Hours
                         </label>
                         <div className="flex gap-2">
                           <div className="basis-1/2">
                             <label htmlFor="" className="text-sm">
                               {" "}
-                              از ساعت
+                              From
                             </label>
                             <input type="time" name="time" />
                           </div>
                           <div className="basis-1/2">
                             <label htmlFor="" className="text-sm">
                               {" "}
-                              تا ساعت
+                              To
                             </label>
                             <input type="time" name="time" />
                           </div>
@@ -132,7 +132,7 @@ export default function ProfileServices() {
                       type="button"
                       onClick={() => setShowModal(false)}
                     >
-                      ذخیره خدمت
+                      Add Service
                     </button>
                   </div>
                 </div>

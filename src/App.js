@@ -10,6 +10,7 @@ import ProfileServices from './components/profile/profileServices/profileService
 import ProfileSupport from './components/profile/profileSupport/profileSupport';
 import UserPage from './components/user/userPage';
 import UserListGallery from './components/user/userListGallery';
+import ProfileInfo from './components/profile/profileInfo/profileInfo';
 import 'animate.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Cart" element={ <Cart/> } />
         <Route path='/Favourites' element={<FavouritesPage />} />
         <Route path='/Profile' element={<ProfilePage />} />
+        <Route path='/profile/info' element={<ProfileInfo />} />
         <Route path='/Profile/orders' element={<ProfileOrders />} />
         <Route path='/Profile/services' element={<ProfileServices />} />
         <Route path='/profile/support' element={<ProfileSupport />} />

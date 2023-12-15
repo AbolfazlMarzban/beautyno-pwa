@@ -14,10 +14,10 @@ export default function UserHead() {
           style={{ backgroundImage: `url(${profile})` }}
         ></div>
       </div>
-      <div className="basis-7/8 pr-12">
-        <span className="text-xl font-bold">نام آرایشگاه</span>
+      <div className="basis-7/8 pr-12 ml-4 flex flex-col items-start">
+        <span className="text-xl font-bold">Username</span>
 
-        <div class="flex items-center space-x-1 mt-4">
+        <div class="flex items-start space-x-1 mt-4">
           <svg
             class="w-4 h-4 text-yellow-300"
             aria-hidden="true"

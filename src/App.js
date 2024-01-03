@@ -11,6 +11,7 @@ import ProfileSupport from './components/profile/profileSupport/profileSupport';
 import UserPage from './components/user/userPage';
 import UserListGallery from './components/user/userListGallery';
 import ProfileInfo from './components/profile/profileInfo/profileInfo';
+import Search from './components/search/searchPage';
 import 'animate.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/profile/support' element={<ProfileSupport />} />
         <Route path='/user' element={<UserPage />} />
         <Route path='/user/gallery' element={<UserListGallery />} />
+        <Route path='/search' element={<Search />} />
       </Routes>
     </div>
   );

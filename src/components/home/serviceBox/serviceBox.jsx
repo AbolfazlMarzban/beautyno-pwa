@@ -12,7 +12,7 @@ export default function ServiceBox({}) {
       <div className="flex items-center">
         <Link to="/user" className="flex items-center">
           <div className="basis-1/8">
-            <div
+            <div   
               className="w-16 h-16 rounded-full bg-cover bg-center"
               style={{ backgroundImage: `url(${profile})` }}
             ></div>

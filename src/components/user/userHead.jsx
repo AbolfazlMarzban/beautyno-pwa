@@ -90,7 +90,7 @@ export default function UserHead() {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto w-full">
+                <div className="relative sm:p-6 max-sm:p-1 flex-auto w-full">
                   <ServiceItems />
                   <ServiceItems />
                   <ServiceItems />

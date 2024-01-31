@@ -74,7 +74,7 @@ export default function ListGalleryItem() {
           alt=""
         />
       </div>
-      <div className="flex justify-start gap-3">
+      <div className="flex justify-start gap-3 mb-2">
       <button className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -124,12 +124,10 @@ export default function ListGalleryItem() {
         </div>
         <p className="text-start mt-2">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-          tempora nemo dolore voluptates reprehenderit, recusandae vel numquam
-          quam animi, laborum deserunt. Magnam voluptas, debitis fugit aliquid
-          sequi eos facilis natus.
+          tempora nemo ... 
         </p>
       </div>
-      <div className="my-1">
+      {/* <div className="my-1">
         <div className="flex flex-col">
           <div className="flex items-center gap-3">
             <div
@@ -162,7 +160,7 @@ export default function ListGalleryItem() {
           quam animi, laborum deserunt. Magnam voluptas, debitis fugit aliquid
           sequi eos facilis natus.
         </p>
-      </div>
+      </div> */}
       
     </div>
   );

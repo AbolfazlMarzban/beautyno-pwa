@@ -4,7 +4,7 @@ export default function ProfileInfo() {
   return (
     <div className="flex flex-col h-full items-center justify-center">
       <div className="flex flex-col items-center justify-center w-full max-w-3xl">
-        <div className="w-full flex flex-col items-start gap-2 justify-center">
+        <div className="w-full flex flex-col items-start gap-2 justify-center max-sm:p-3">
           <label htmlFor="">Full Name</label>
           <input type="text" className="p-2 border rounded-lg w-full" />
           <label htmlFor="">Phone Number</label>

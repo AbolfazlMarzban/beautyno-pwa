@@ -6,15 +6,15 @@ export default function FavItem({}) {
       <ul className="flex items-center justify-between ">
         <li>
           <div
-            className="h-16 w-16 rounded-full bg-cover bg-center"
+            className="h-16 w-16 rounded-full bg-cover bg-center max-sm:h-8 max-sm:w-8"
             style={{ backgroundImage: `url(${profile})` }}
           ></div>
         </li>
         <li>
-          <span className="text-lg">UserName</span>
+          <span className="text-lg max-sm:text-xs">UserName</span>
         </li>
         <li>
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded-xl shadow flex gap-x-2">
+          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded-xl shadow flex gap-x-2 max-sm:text-xs items-center">
             Service List
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ export default function FavItem({}) {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              class="w-6 h-6 max-sm:h-4 max-sm:w-4"
             >
               <path
                 stroke-linecap="round"
@@ -33,7 +33,7 @@ export default function FavItem({}) {
           </button>
         </li>
         <li>
-        <div class="flex items-center space-x-1">
+        <div class="flex items-center space-x-1 max-sm:space-x-1/2">
               <svg
                 class="w-4 h-4 text-yellow-300"
                 aria-hidden="true"

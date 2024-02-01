@@ -10,16 +10,16 @@ export default function POrderItem() {
             </div>
         </li>
         <li>
-            <span className="text-md">UserName</span>
+            <span className="text-md max-sm:text-xs">UserName</span>
         </li>
         <li>
-            <span className="text-md">ServiceName</span>
+            <span className="text-md max-sm:text-xs">ServiceName</span>
         </li>
         <li>
-            <span className="text-md">Service Date</span>
+            <span className="text-md max-sm:text-xs">Service Date</span>
         </li>
         <li>
-            <span className="text-md">Service Time</span>
+            <span className="text-md max-sm:text-xs">Service Time</span>
         </li>
     </ul>
 </div>  

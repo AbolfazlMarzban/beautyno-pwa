@@ -5,10 +5,10 @@ export default function PServiceItem() {
     <div className="w-full border border-1 rounded-xl p-2 px-6 my-4">
       <ul className="flex items-center justify-between ">
         <li>
-          <span className="text-md">Service Name</span>
+          <span className="text-md max-sm:text-xs">Service Name</span>
         </li>
         <li className="flex items-center">
-          <span className="mr-3 text-sm font-medium text-gray-900 dark:text-gray-300">
+          <span className="mr-3 text-sm font-medium text-gray-900 dark:text-gray-300 max-sm:text-xs">
             Active
           </span>
 
@@ -18,10 +18,10 @@ export default function PServiceItem() {
           </label>
         </li>
         <li>
-          <span className="text-md">Service Days</span>
+          <span className="text-md max-sm:text-xs">Service Days</span>
         </li>
         <li>
-          <span className="text-md">Service Time</span>
+          <span className="text-md max-sm:text-xs">Service Time</span>
         </li>
       </ul>
     </div>

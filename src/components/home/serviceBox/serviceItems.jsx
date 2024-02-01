@@ -3,12 +3,12 @@ import React from "react";
 export default function ServiceItems({}) {
   return (
     <div className="mt-4">
-      <ul className="flex gap-x-4 items-center font-bold border border-1 py-1 px-4 justify-between rounded-xl">
+      <ul className="flex gap-x-4 items-center font-bold border border-1 py-1 px-4 justify-between rounded-xl max-sm:text-xs max-sm:gap-1">
         <li>Service Name</li>
         <li>Service Time</li>
         <li>Service Days</li>
         <li>
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded-xl shadow flex gap-x-2">
+          <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded-xl shadow flex gap-x-2 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

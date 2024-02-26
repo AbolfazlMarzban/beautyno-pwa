@@ -5,8 +5,7 @@ function Navbar(props) {
   return (
     <div className="fixed z-10 inset-x-0 bottom-0 bg-white w-full flex justify-initail items-center border border-t-1 border-t-gray-300">
       <ul className="w-full flex  justify-between mx-6">
-
-      <li className=" flex my-4">
+        <li className=" flex my-4">
           <Link to="/" className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,30 +24,42 @@ function Navbar(props) {
           </Link>
         </li>
         <li className="my-4">
-          <Link to={'/search'} className="flex">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-            />
-          </svg>
+          <Link to={"/search"} className="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
           </Link>
         </li>
         <li className="my-4">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
+          <Link to={"/upload"} className="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </Link>
         </li>
- 
+
         <li className="  my-4">
           <Link to="/Cart" className="flex">
             <svg

@@ -13,6 +13,7 @@ import UserListGallery from './components/user/userListGallery';
 import ProfileInfo from './components/profile/profileInfo/profileInfo';
 import Search from './components/search/searchPage';
 import 'animate.css';
+import UploadPage from './components/upload/uploadPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/user' element={<UserPage />} />
         <Route path='/user/gallery' element={<UserListGallery />} />
         <Route path='/search' element={<Search />} />
+        <Route path='/upload' element={<UploadPage/>} />
       </Routes>
     </div>
   );

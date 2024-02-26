@@ -6,6 +6,11 @@ export default function ProfilePage({}) {
     <div className="flex flex-col h-full justify-center">
       <div className="w-full flex justify-center items-center">
         <div className="w-1/2 flex flex-col">
+          <Link to="/user" className="w-full">
+          <button className="bg-pink-500 text-white hover:bg-pink-600 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
+              Go to my profile
+            </button>
+          </Link>
           <Link to="/profile/info" className="w-full">
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold p-4 border border-gray-400 rounded-xl shadow text-center my-2 w-full">
               Profile Info
